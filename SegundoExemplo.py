@@ -14,9 +14,8 @@ while True:
         esfera.pos.x += 1
     else:
         break  # Para o movimento quando a esfera alcançar o limite
-# tafera para proxima aula, fazer que a esfera bata no quadrado direito e va para o quadrado esquerdo
 '''
-
+# tafera para proxima aula, fazer que a esfera bata no quadrado direito e va para o quadrado esquerdo
 Web VPython 3.2
 from vpython import *
 
