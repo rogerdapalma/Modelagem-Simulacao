@@ -1,28 +1,29 @@
 # Sumo
 
-## Downloads
-Para realizar o download do SUMO, acesse o site oficial do projeto e siga as instruções para a instalação de acordo com o seu sistema operacional.
+[Downloads](https://sumo.dlr.de/docs/Downloads.php)
 
 ## Mapa
 
-### OpenStreetMap: Local onde conseguir os mapas para a simulação
+- [OpenStreetMap](https://www.openstreetmap.org) : local onde conseguir os mapas para as simulação
 
-1. Acesse o site [OpenStreetMap](https://www.openstreetmap.org/).
-2. Selecione a região do mapa que deseja usar para simulação.
-3. Exporte o mapa no formato `.osm`.
+- Selecione a região do mapa que deseja usar para simulção.
 
-## Conversão do mapa de `.osm` para `.xml`
+- exporte o mapa
 
-1. Abra a pasta onde você instalou o SUMO e encontre a pasta `bin`.
-2. Abra a pasta `bin` no terminal.
-3. No terminal, execute o seguinte comando para converter o arquivo `.osm` para `.xml`:
-   ```bash
-   netconvert --osm-files file.osm -o file.net.xml
-    ```
-**Nota:** Se o arquivo `.osm` que deseja converter estiver em outro diretório, é necessário fornecer o caminho completo para o arquivo no lugar de `file.osm`.
+## Conerversão do mapa de .osm para .xml
+
+- abra a pasta onde baixo o sumo e encontre a pasta bin
+
+- abra a pasta bin no terminal
+
+- no terminal, execute o comando netconvert --osm-files file.osm -o file.net.xml para executar a conversão.
+
+        observação: caso o arquivo que deseja converter não esteja na mesma pasta, deve-se passar o caminho do arquivo.
 
 ## Executando o Sumo
 
-1. Abra o SUMO.
-2. Na aba **File**, clique em **Open Network**.
-3. Navegue até o mapa convertido (`file.net.xml`) e selecione-o para carregar na simulação.
+- Abra o sumo
+
+- na aba File, selecione a opção Open Network.
+
+- Selecione o mapa que deseje abrir.
