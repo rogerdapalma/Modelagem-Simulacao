@@ -27,3 +27,7 @@
 - na aba File, selecione a opção Open Network.
 
 - Selecione o mapa que deseje abrir.
+
+
+
+python .\osmWebWizard.py
