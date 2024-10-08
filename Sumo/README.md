@@ -10,7 +10,7 @@
 
 - exporte o mapa
 
-## Conerversão do mapa de .osm para .xml
+## Conerversão do mapa de `.osm` para `.xml`
 
 - abra a pasta onde baixo o sumo e encontre a pasta bin
 
